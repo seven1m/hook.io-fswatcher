@@ -6,13 +6,13 @@ It supports [inotify](http://en.wikipedia.org/wiki/Inotify) (Linux) only at the 
 
 ## Install
 
-    npm install hook.io-fswatcher
+    npm install -g hook.io-fswatcher
 
 ## Run
 
 To start up the watcher with default options, run:
 
-    node hook.io-fswatcher
+    hookio-fswatcher
 
 This will start watching the current directory and emit events as files/directories change.
 
