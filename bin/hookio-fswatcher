@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var FSWatcher = require('../lib/index').FSWatcher;
+
+var hook = new FSWatcher({
+  name: 'fswatcher'
+});
+
+hook.start();
