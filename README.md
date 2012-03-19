@@ -1,8 +1,8 @@
 # Hook.io FS Watcher
 
-This is the Filesystem Watcher hook for [Hook.io](https://github.com/hookio/hook.io).
+A Filesystem Watcher hook for [Hook.io](https://github.com/hookio/hook.io) that works on multiple paths, recursively monitoring child directories and newly-created directories.
 
-It supports [inotify](http://en.wikipedia.org/wiki/Inotify) (Linux) only at the moment.
+*It supports [inotify](http://en.wikipedia.org/wiki/Inotify) (Linux) only at the moment.*
 
 ## Install
 
